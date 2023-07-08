@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_luxury_gradient_blue_background_smooth_dark_blue_with_black_vignette_studio_banner"
+    tools:context=".Seller">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:background="@drawable/detail_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="276dp"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/detail_bg"
+            android:drawableRight="@drawable/baseline_call_24"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/mailBtn"
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/detail_bg"
+            android:drawableRight="@drawable/baseline_email_24"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/msgBtn"
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/detail_bg"
+            android:drawableRight="@drawable/baseline_chat_bubble_24"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_width="52dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/detail_bg"
+            android:drawableRight="@drawable/_0266151_3d_square_with_whatsapp_logo"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/sellerName"
+            android:layout_width="191dp"
+            android:layout_height="51dp"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#191717"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <TextView
+            android:id="@+id/sellerEmail"
+            android:layout_width="311dp"
+            android:layout_height="37dp"
+            android:text="Email Address"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#191717"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.162" />
+
+        <TextView
+            android:id="@+id/sellerDept"
+            android:layout_width="311dp"
+            android:layout_height="37dp"
+            android:text="Department"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#191717"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.375" />
+
+        <TextView
+            android:id="@+id/sellerDept2"
+            android:layout_width="311dp"
+            android:layout_height="37dp"
+            android:text="Sahyadri Campus"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#191717"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.537" />
+
+        <TextView
+            android:id="@+id/sellerDept3"
+            android:layout_width="311dp"
+            android:layout_height="37dp"
+            android:text="Adyar,Mangalore"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#191717"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.685" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/seller_image"
+        android:layout_width="217dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:transitionName="image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/error_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

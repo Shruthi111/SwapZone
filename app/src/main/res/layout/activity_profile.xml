@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="false"
+            android:text="Full Name"
+            android:textColor="#FDFDFD"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullname_field"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:includeFontPadding="false"
+            android:text="Email"
+            android:textColor="#FBFBFB"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_marginTop="-100dp"
+        android:padding="20dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#1261A0"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/orders_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:includeFontPadding="false"
+                    android:text="0"
+                    android:textColor="#F6F5F5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/orders_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/orders_label"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:text="Favourite Items"
+                    android:textColor="#FAF8F8"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#1261A0"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/items_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:includeFontPadding="false"
+                    android:text="0"
+                    android:textColor="#FDF8F8"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/items_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/items_label"
+                    android:layout_centerHorizontal="true"
+                    android:includeFontPadding="false"
+                    android:text="Total items Added"
+                    android:textColor="#FDFBFB"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:enabled="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:id="@+id/mobileno_profile"
+                android:text="Mobile No"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:enabled="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:id="@+id/email_profile"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:enabled="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:id="@+id/dept_profile"
+                android:text="Department"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:enabled="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:id="@+id/username_profile"
+                android:text="Username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:enabled="false"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:text="Password"
+                android:id="@+id/passwd_profile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906832849328",
+    "project_id": "collegeolx-2544a",
+    "storage_bucket": "collegeolx-2544a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906832849328:android:937b12e5be45f0cd3a8e75",
+        "android_client_info": {
+          "package_name": "com.example.studentswapzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906832849328-5bqgv2thf9qrvc3e49bl3g53fh57rhod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQamn0af2sGTtJx_f-v5wYJfKha61D9zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906832849328-5bqgv2thf9qrvc3e49bl3g53fh57rhod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

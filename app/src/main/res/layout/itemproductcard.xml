@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_weight="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="339dp">
+
+        <TextView
+            android:id="@+id/item1name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item1"
+            android:layout_marginTop="22dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="#121010"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/item1"
+            android:layout_width="255dp"
+            android:layout_height="166dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/item1sp"
+            android:layout_width="166dp"
+            android:layout_height="52dp"
+            android:layout_below="@id/item1name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="16dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="#42995C"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item1name"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/bg_cat"
+            android:paddingLeft="15dp"
+            android:text="Buy  "
+
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
