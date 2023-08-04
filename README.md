@@ -11,6 +11,11 @@ SwapZone is an olx styled app designed specifically for college students. It pro
 
 - **User Registration and Authentication:** Users can create an account or log in using their existing credentials. Account information is securely stored and managed using Firebase Authentication.
 
+<div align="center">
+<img src="https://i.postimg.cc/ryKhZWmt/Screenshot-2023-08-04-210605.png" alt="Login" height="300" style="padding:10px">
+<img src="https://i.postimg.cc/RCkTPDyj/Screenshot-2023-08-04-210707.png" alt="Registration" height="300" style="padding:10px">
+</div>
+
 - **Item Listing and Browsing:** Users can list their items for sale, providing details such as title, description, category, price, and photos. Other users can browse the products by category to find items of interest.
 
 <div align="center">
